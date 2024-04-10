@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { useContext, useState } from "react";
 
-const URL = "http://localhost:5000/api/auth/register";
+const URL = "https://assignment6-server-sepia.vercel.app/api/auth/register";
 
 const SignUp = () => {
 

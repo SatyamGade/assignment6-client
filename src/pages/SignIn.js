@@ -6,7 +6,7 @@ import {JWTContext} from "../contexts/JwtProvider";
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
-const URL = "http://localhost:5000/api/auth/login";
+const URL = "https://assignment6-server-sepia.vercel.app/api/auth/login";
 
 const SignIn = () => {
 

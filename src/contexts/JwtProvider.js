@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-const URL = "http://localhost:5000/api/auth/user";
+const URL = "https://assignment6-server-sepia.vercel.app/api/auth/user";
 
 export const JWTContext = createContext();
 
