@@ -1,0 +1,56 @@
+.signUp{
+    @apply w-full flex;
+}
+
+.signUpImg{
+    background-image: url("../../public/signupImg.png");
+    @apply h-screen bg-amber-200 bg-no-repeat bg-center;
+    width: 29%;
+}
+
+.signUpTextDiv{
+    @apply pt-12 pb-4 pr-20 pl-12;
+}
+
+.signUpForm{
+    @apply w-4/12 mt-20 mx-auto;
+}
+
+.logoTxt {
+    @apply text-yellow-700 ;
+    font-family: "Dancing Script", cursive !important;
+    font-optical-sizing: auto;
+    font-size:x-large;
+    font-weight: 600;
+    font-style:normal;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .signUp{
+        flex-direction: column;
+    }
+
+    .signUpImg{
+        width: 100%;
+    }
+
+    .signUpTextDiv{
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .alreadyMember{
+        align-self: flex-end;
+        margin-right: 8px;
+    }
+
+    .signUpForm{
+        width: 80%;
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+
+    .userName{
+        margin-top: 1.5rem;
+    }
+}

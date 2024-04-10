@@ -1,0 +1,22 @@
+.footerLogo{
+    @apply text-pink-600 ;
+    font-family: "Dancing Script", cursive !important;
+    font-optical-sizing: auto;
+    font-size:x-large;
+    font-weight: 700;
+    font-style:normal;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .footerSection{
+        flex-direction: column;
+    }
+
+    .gridSection{
+        margin-top: 2em;
+    }
+
+    .copyRights{
+        flex-direction: column;
+    }
+}
